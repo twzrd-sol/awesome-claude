@@ -33,13 +33,15 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 **The authoritative source for everything Claude -  directly from Anthropic**
 
-### 🧠 Current Models (Claude 4.6 Family - Early 2026)
+### 🧠 Current Models (Claude 4.7 Family - 2026)
 
-- **Claude Opus 4.6** (Feb 5, 2026) -  Anthropic's most capable model ever. Best-in-class for coding, long-horizon agents, large codebases, debugging, financial analysis, and enterprise workflows. New: 1M token context window (beta), adaptive thinking (dynamic reasoning depth), agent teams, context compaction. SOTA on Terminal-Bench 2.0, GDPval-AA (+190 Elo over Opus 4.5), Humanity's Last Exam, BrowseComp. [Announcement](https://www.anthropic.com/news/claude-opus-4-6) | [System Card](https://www.anthropic.com/claude-opus-4-6-system-card)
-- **Claude Sonnet 4.6** (Feb 17, 2026) -  Best balance of intelligence, speed, and cost. Near-Opus performance on coding, computer use (multi-tab forms, spreadsheets), and professional tasks. Now the default model for many plans. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-6)
+- **Claude Opus 4.7** (Apr 16, 2026) -  Anthropic's latest and most capable model. Major gains on the hardest software engineering tasks (13% resolution improvement over Opus 4.6 on a 93-task coding benchmark, 3x more production task resolutions on engineering benchmarks). Substantially better vision (images up to ~3.75 MP / 2,576px long edge, 98.5% visual acuity on computer-use tasks vs. 54.5% for Opus 4.6), 21% fewer document-reasoning errors, stronger long-running agentic workflows, and improved file-system memory across sessions. New: `xhigh` effort level, task budgets (public beta), `/ultrareview` slash command, extended auto mode for Max users. Same price as Opus 4.6. [Announcement](https://www.anthropic.com/news/claude-opus-4-7) | [What's new](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7) | [System Card](https://www.anthropic.com/claude-opus-4-7-system-card)
+- **Claude Opus 4.6** (Feb 5, 2026) -  Previous Opus generation. Best-in-class for coding, long-horizon agents, large codebases, debugging, financial analysis, and enterprise workflows. Introduced 1M token context window (beta), adaptive thinking (dynamic reasoning depth), agent teams, context compaction. SOTA on Terminal-Bench 2.0, GDPval-AA (+190 Elo over Opus 4.5), Humanity's Last Exam, BrowseComp. [Announcement](https://www.anthropic.com/news/claude-opus-4-6) | [System Card](https://www.anthropic.com/claude-opus-4-6-system-card)
+- **Claude Sonnet 4.6** (Feb 17, 2026) -  Best balance of intelligence, speed, and cost. Near-Opus performance on coding, computer use (multi-tab forms, spreadsheets), and professional tasks. Default model for many plans. [Announcement](https://www.anthropic.com/news/claude-sonnet-4-6)
 - **Claude Haiku 4.5** (Oct 2025) -  Fastest model with near-frontier intelligence. Perfect for high-volume, real-time, and sub-agent tasks. [Announcement](https://www.anthropic.com/news/claude-haiku-4-5)
 
 **Key specs (API):**  
+- Opus 4.7: `claude-opus-4-7` • $5/$25 per MTok • 200K standard / 1M beta context  
 - Opus 4.6: `claude-opus-4-6` • $5/$25 per MTok • 200K standard / 1M beta context  
 - Sonnet 4.6: `claude-sonnet-4-6` • $3/$15 per MTok • 200K standard / 1M beta context  
 - Haiku 4.5: `claude-haiku-4-5` • $1/$5 per MTok • 200K context  
@@ -75,9 +77,9 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 
 ### ☁️ Cloud Providers
 
-**Official access to Claude models through cloud providers** (all support Opus 4.6 / Sonnet 4.6)
+**Official access to Claude models through cloud providers** (all support Opus 4.7 / Opus 4.6 / Sonnet 4.6)
 
-- **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** -  Fully managed access to the latest Claude models (Opus 4.6, Sonnet 4.6, Haiku 4.5). Supports cross-region inference (new regions: Thailand, Malaysia, Singapore, Indonesia, Taiwan), latency optimizations, fine-tuning, agents, guardrails, and deep AWS integration.
+- **[Amazon Bedrock](https://aws.amazon.com/bedrock/anthropic/)** -  Fully managed access to the latest Claude models (Opus 4.7, Opus 4.6, Sonnet 4.6, Haiku 4.5). Supports cross-region inference (new regions: Thailand, Malaysia, Singapore, Indonesia, Taiwan), latency optimizations, fine-tuning, agents, guardrails, and deep AWS integration.
 - **[Google Cloud Vertex AI Model Garden](https://cloud.google.com/products/model-garden/claude)** -  Deploy Claude models with provisioned throughput, prompt caching, batch predictions, grounding, and enterprise compliance (FedRAMP High). Great for building agents with Google Cloud tools.
 - **[Microsoft Azure AI Model Catalog (Anthropic Publisher)](https://ai.azure.com/catalog/publishers/anthropic)** -  Claude models via the AI Model Catalog. Supports serverless deployment, agent building, tool integration, fine-tuning, and billing through existing Azure agreements.
 
@@ -87,6 +89,7 @@ Premium pricing for >200K tokens. Full comparison: [Models overview](https://pla
 
 - [Transparency Hub](https://www.anthropic.com/transparency) -  Overview of safety evaluations and improvements across models.
 - [All System Cards](https://www.anthropic.com/system-cards) -  Index of all model system cards.
+  - [Claude Opus 4.7 System Card](https://www.anthropic.com/claude-opus-4-7-system-card) -  Capability and safety report (Apr 2026).
   - [Claude Opus 4.6 System Card](https://www.anthropic.com/claude-opus-4-6-system-card) -  Capability and safety report (Feb 2026).
   - [Claude Sonnet 4.6 System Card](https://www.anthropic.com/claude-sonnet-4-6-system-card) -  Detailed evaluations (Feb 2026).
   - [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) -  Comprehensive capability and safety report (Nov 2025).
