@@ -154,7 +154,7 @@ Open standard (Linux Foundation) for connecting Claude to tools, repos, database
 
 ### ⚡ MCP Servers
 
-- **[TWZRD Agent Intel](https://github.com/twzrd-sol/wzrd-final)** - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight + paid signed V5 trust receipts in <1s. Live MCP endpoint: `https://intel.twzrd.xyz/mcp`
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight + paid signed V5 trust receipts in <1s. Live MCP endpoint: `https://intel.twzrd.xyz/mcp`
 
 ---
 
